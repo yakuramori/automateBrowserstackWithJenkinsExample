@@ -53,7 +53,7 @@ public class DriverFactory {
 
     public WebDriver getWebDriver(String driverName) {
         System.out.println("Set Up browser: " + driverName);
-        return webDriver;
+        return getChromeDriver();
     }
 
     private WebDriver getFirefoxDriver() {
